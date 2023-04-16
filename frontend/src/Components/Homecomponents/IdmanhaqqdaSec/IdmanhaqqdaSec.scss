@@ -1,0 +1,98 @@
+.idman_haqqinda{
+    
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(213, 255, 213);
+   
+    
+    .idmanhaq_sec{
+      
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            
+            display: flex;
+            justify-content: center;
+            color: green;
+            
+        }
+        .idmanhaq_elemnts{
+          
+            width: 80%;
+            .container{
+               .carousel-inner{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  
+                    .slidetitle{
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: center;
+                        color: red;
+                    }
+                    .slideimg{
+                        width: 500px;
+                    }
+                
+               }
+            }
+            .melumat{
+               
+                .futbol{
+                    .futbol_elem{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p{
+                            width: 70%;
+                        }
+                        img{
+                           width: 20%;
+                        }
+                    }
+                }
+                .valeybol{
+                    .valeybol_elem{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: center;
+                        .valeybol_img_div{
+                            width: 20%;
+
+                            img{
+                                
+                                width: 250px;
+                                height: 200px;
+                            }
+                        }
+                        p{
+                            width: 70%;
+                        }
+                    }
+                }
+                .hendbol{
+                    .hendbol_elem{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: center;
+                        p{
+width: 70%;
+                        }
+                        .hendbol_img_div{
+                            width: 20%;
+                            img{
+                                width: 250px;
+                                height: 200px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
