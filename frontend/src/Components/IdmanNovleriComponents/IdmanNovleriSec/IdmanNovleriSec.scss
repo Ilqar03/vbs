@@ -1,0 +1,22 @@
+.idmannovlerisec{
+
+    .idmannov_sec_card{
+        width: 70%;
+        .nov_card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                p{
+                    font-size: 20px;
+                    color: #3e8e41;
+                }
+
+            }
+        }
+    }
+}
